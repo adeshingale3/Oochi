@@ -1,8 +1,16 @@
 {
-  "name": "oochi",
-  "private": true,
-  "version": "0.0.0",
+  "name": "oochi-agency-template",
+  "private": false,
+  "version": "1.0.0",
   "type": "module",
+  "description": "Modern agency landing page template with SEO, GEO, and AEO optimization for React + Vite",
+  "keywords": ["agency", "landing-page", "template", "react", "vite", "seo", "geo", "aeo", "tailwindcss"],
+  "author": "Oochi Agency",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adeshingale3/oochi"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
