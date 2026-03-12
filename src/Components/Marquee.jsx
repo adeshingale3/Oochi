@@ -10,7 +10,7 @@ function Marquee() {
             initial={{ x: "0" }}
             animate={{ x: "-100%" }}
             transition={{ repeat: Infinity, ease: "linear", duration: 15 }}
-            className='text-[8vw] md:text-[14vw] leading-none font-semibold pr-4 md:pr-10'
+            className='text-[8vw] md:text-[14vw] leading-none font-semibold pr-4 md:pr-10 text-white'
           >
             WE ARE OOCHI
           </motion.h1>

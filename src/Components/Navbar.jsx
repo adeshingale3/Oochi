@@ -39,8 +39,12 @@ function Navbar() {
       {/* Desktop Links */}
       <div className='hidden md:flex gap-5'>
         {['Services', 'Our Work', 'About Us', 'Insights', 'Contacts'].map((item, index) => (
-          <a key={index} className={`text-sm md:text-md capitalize ${index === 4 && "ml-0 md:ml-40"}`}>
+          <a 
+            key={index} 
+            className={`text-sm md:text-md capitalize font-medium relative group ${index === 4 && "ml-0 md:ml-40"}`}
+          >
             {item}
+            <span className="absolute left-0 bottom-0 w-0 h-[1.5px] bg-black transition-all duration-300 ease-out group-hover:w-full"></span>
           </a>
         ))}
       </div>
@@ -62,8 +66,12 @@ function Navbar() {
       >
         <div className='flex flex-col gap-4'>
           {['Services', 'Our Work', 'About Us', 'Insights', 'Contacts'].map((item, index) => (
-            <a key={index} className='text-2xl capitalize py-2 border-b'>
+            <a 
+              key={index} 
+              className='text-2xl capitalize py-2 border-b font-medium relative group'
+            >
               {item}
+              <span className="absolute left-0 bottom-2 w-0 h-[2px] bg-black transition-all duration-300 ease-out group-hover:w-full"></span>
             </a>
           ))}
         </div>
